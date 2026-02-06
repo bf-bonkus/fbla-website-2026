@@ -1,9 +1,9 @@
 # FBLA Website 2026
-WIP
+A fast, easy to use lost-and-found website developed for FBLA's Website Coding and Design event.
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've created a project and installed dependencies with `bun install`, start a development server:
 
 ```sh
 npm run dev
