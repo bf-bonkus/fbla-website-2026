@@ -6,5 +6,5 @@ export const item = sqliteTable('item', {
 	name: text('name').notNull(),
 	desc: text('desc'),
 	date: text().default(sql`CURRENT_DATE`),
-	image: text('image'), // Base64 converted image
+	image: text('image'), // base64url converted image
 });
